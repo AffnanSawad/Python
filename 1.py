@@ -79,3 +79,17 @@ xy = input("Enter a number : ")
 xy = int(xy)
 
 print(type(xy))
+
+# Power
+
+a = 10 
+
+square = a ** 2
+power_four = a ** 4
+
+print("10 to the power 2 is : ", square)
+print("10 to the power 4 is : ", power_four)
+
+# End of Chapter 1 and Chapter 2 ;
+
+# Thanku ;
