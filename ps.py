@@ -16,3 +16,30 @@ print(index_of_S)
 
 replace_double_space_by_single_space = name.replace("  ", " ")
 print(replace_double_space_by_single_space)
+
+# Take 3 input of fruits and make a lists:
+
+fruits = [ ]
+
+f1 = input("Enter fruit 1 : ")
+fruits.append(f1)
+
+f2 = input("Enter fruit 2 : ")
+fruits.append(f2)
+
+f3 = input("Enter fruit 3 : ")
+fruits.append(f3)
+
+print(fruits)
+
+
+# Count 0 in the given tupple
+
+a = [1,2,3,4,0,0,0,0,5,6,7,8,9,0]
+
+counting = a.count(0)
+print(counting)
+
+# Sum the list
+a = [1,2,3,4,5,6,7,8,9]
+print(sum(a))
