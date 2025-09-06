@@ -196,13 +196,13 @@ else:
     if( marks  >=80 and marks <= 100):
         print("A+")
 
-    elif( marks >= 70 and marks <= 80):
+    elif( marks >= 70 and marks <= 79):
         print("A")    
 
-    elif( marks >= 60 and marks <= 70):
+    elif( marks >= 60 and marks <= 69):
         print("A-")
 
-    elif( marks < 60 and marks >= 40):
+    elif( marks >= 40 and marks <= 59):
         print("Pass")    
 
     else:
@@ -233,3 +233,83 @@ elif( input2 > input1 and input2 > input3):
 
 else:
     print("Input 3 is the greatest number")
+
+
+
+
+given_number = 5 
+   
+for i in range(1, 11):
+        
+        multiplication = given_number * i 
+        print( multiplication )
+
+
+# Loops + If-else
+
+A = [1,2,3,4,5,6,7,8,9,10]
+
+for elemenets_of_A in A:
+     
+     if(  elemenets_of_A  % 2 == 0):
+            print("Even Numbers Are: ", elemenets_of_A)
+ 
+else:
+  print("No even number")
+
+
+# Multiplication Table
+given_number = 5 
+   
+for i in range(1, 11):
+        
+        multiplication = given_number * i 
+        print( multiplication )
+
+
+# Greeting  the names in the list
+names = [ "Affnan", "Sawad", "Arafat", "Rafsan", "Sabbir"]
+
+for i in names :
+     
+     print( f"Hello, {i}  Assalamualaikum !")
+
+
+# Table of 5 in Reverse Order
+given_numbers = 5 
+
+for i in range(10 ,0 , -1 ) :
+     multiplication = given_numbers * i 
+     print(" table of 5 in Reverse Order is :  ",multiplication )
+
+
+    #  prime or not
+n = int(input("Enter a number: "))
+
+for i in range( 2 , n):
+     if ( n % i == 0):
+          print("Not a prime number")
+          break
+
+else:
+     print("Prime Number")
+
+
+        #   
+
+list_of_nums = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200] 
+
+
+# Sum of all even numbers in the list
+input_number = int(input("Enter a number : "))
+
+summation = 0
+
+
+for i in range( 1 , input_number):
+     if( i % 2 == 0):
+          
+          summation = summation + i
+
+print("The sum of all even numbers is : ", summation)
+
