@@ -313,3 +313,17 @@ for i in range( 1 , input_number):
 
 print("The sum of all even numbers is : ", summation)
 
+# Function
+
+
+def convert_to_fahrenheit( x ):
+     
+        fahrenheit = ( x * 9/5) + 32
+        return fahrenheit
+
+celcius = int( input("Enter temperature in Celsius : "))
+result = convert_to_fahrenheit(celcius)
+
+print("Temperature in Fahrenheit is : ", result)
+    
+
